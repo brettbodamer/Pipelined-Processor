@@ -8,6 +8,8 @@ Logisim implementation of 5-stage pipelined processor that runs the custom GT-22
 *__pow.hex__* contains the same assembly instructions translated into hex so the processor can make use of them
 
 ## Intsructions for running:
+Simulation runs using Logisim
+
 pow.hex contains both the instructions and relevant data, so make sure the Insruction ROM and Data RAM both hold pow.hex
 
 Look at the Simulate tab in the menu bar of Logisim. Change tick frequency as desired. 4.1 KHz is recommended if you just want to see the output.
